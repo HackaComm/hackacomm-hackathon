@@ -10,3 +10,9 @@ Oftentime, individuals think about reducing their carbon footprint by making lar
 # Tensorflow Model
 Our model analyzes pictures of foods to determine which ingredients can be substituted with ones that have a lower carbon footprint.
 Since the model is too large for GitHub, it can be viewed [here](https://drive.google.com/file/d/1uT9nj5rxIW2kfQh4pNOZlkO0l6PXV6Vq/view?usp=sharing).
+
+# Personal Github Repo
+Here is the link to our [repo](https://github.com/forrest-fan/sub-it).
+
+# Presentation
+Here is the link to our [presentation](https://docs.google.com/presentation/d/1OdUDuxQFN3zzLt5g5gVkaWofq1-NrbLDZNhV313Dub4/edit?usp=sharing).
