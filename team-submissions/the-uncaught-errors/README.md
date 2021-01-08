@@ -1,56 +1,72 @@
-# environment-webapp
+**Original repo**: https://github.com/Marshmallows7920/environment-webapp
 
-# Setting it up
+# Getting Started with Create React App
 
-To begin, clone the repository (to whatever folder you prefer, I usually put them into the documents folder), and enter the cloned folder.
-```bash
-git clone https://github.com/Marshmallows7920/environment-webapp/
-cd environment-webapp
-```
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Configure and run the backend - Python/Django
-Make sure you have python installed from [https://www.python.org/downloads/](https://www.python.org/downloads/).  
-I used python 3.8.4 but newers versions should probably be fine too.
+## Available Scripts
 
-First navigate to the backend folder (assuming you are inside the environment-webapp repo's directory).
-```bash
-cd backend
-```
+In the project directory, you can run:
 
-Then install django and a cors dependency
-```bash
-python -m pip install Django
-python -m pip install django-cors-headers 
-```
+### `npm start`
 
-Now verify that you have django installed. The following command should show you the version of django installed.
-```bash
-python -m django --version
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Now you should be able to launch the backend using the following command. And then keep the window running the backend open as long as you are working on the app.
-```bash
-python manage.py runserver
-```
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-If everything is working correctly, once you navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) you should see a text in your browser literally saying "Yup! Working!".
+### `npm test`
 
-## Configre and run the frontend - Javascript/React
-Make sure you have nodejs and npm installed from [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Now navigate to the frontend folder (assuming you are inside the environment-webapp repo's directory).
-```bash
-cd frontend
-```
+### `npm run build`
 
-Now install all the npm dependencies for the react project by running the following command:
-```bash
-npm install
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Then start the dev server for the react project
-```bash
-npm run start
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-And if you have the backend running at the same time, the react app.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
