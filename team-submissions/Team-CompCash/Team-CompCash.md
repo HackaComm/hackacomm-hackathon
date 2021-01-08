@@ -4,4 +4,4 @@
 2. Deployed App: https://project-compost.web.app/
 3. Presentation: Will be updated soon
 
-Team Members: Harsh, Mith, Loci, Qi, Valdi
+Team Members: Harsh, Mith, Lioc, Qi, Valdi
