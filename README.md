@@ -8,6 +8,26 @@ Welcome to the official [CUSEC 2021 HackaComm](https://2021.cusec.net/hackacomm)
 ### [Materials presented](#materials)
 - [Meet the Mentors Day slides](https://docs.google.com/presentation/d/1S-y15fssVFsTCtG5gy4shBjHvCCQQEBpKE4bhH4Mq9w/edit?usp=sharing) January 4, 2021
 
+### [Finalists](#finalists)
+- In order of team number
+- Selected during Preliminary Judging Round, January 8, 2021
+
+<Team 3>  Sub.It 📸 🥗 For their approach to reducing carbon and greenhouse gas emissions by making simple changes to our food choices. Their solution incorporated image recognition and machine learning, to propose alternative food options to users that are kinder to our environment.
+
+<Team 4>  Blue Water Testing 🌊 👪 For their approach to combat ever-changing water quality and protect existing ecosystems by employing a community-based water pH level reporting tool. This tool encourages users to participate in their community and get engaged with family and friends to record changes in pH level. It’s a combination of a social platform with an interactive map locating pH reporting sites.
+
+<Team 6>  GreenCoin 💰 💚 For their approach to combat the increase in online deliveries and packaging, through the use of monetary donations. Their solution used a Chrome Extension to round up the price of your online e.g. Amazon purchases, and allows the user to donate that money to an environmental organization of their choice.
+
+### [Honourable mentions](#mentions)
+
+<Team 1>  EcoYou 🌲 🙋🏽 For their approach to engaging communities in environmental issues through personal digital connections. EcoYou presented amazing designs and custom badges designed by their teammates.
+
+<Team 2>  Go Green 🕐 🤖 For his approach to visualizing how some of Earth’s key climate indicators are changing over time, provide fossil stats, as well as some solid actions that the community can take in their daily lives. GoGreen was a one-person team!
+
+<Team 5> CompCash 🍠 🤑 For their approach to enabling users to earn quick and easy cash while practicing a good deed for the environment, which is composting your own waste. They deployed a web app and platform, and set users up with a biodegradable box for their homemade compost.
+
+<Team 7>  SaveIt 🔌 📈 For their solution to help people easily monitor, track, and decrease their electricity usage. They implemented a dashboard with tips and a leaderboard, to display users’ electricity consumption, provide tips, and create motivation among users.
+
 ### [Submissions](#submissions)
 Steps to submit your code and presentations:
 1. Please ensure your code is submitted before 11:59 pm EST January 7, 2021!
