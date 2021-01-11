@@ -6,8 +6,8 @@ Welcome to the official [CUSEC 2021 HackaComm](https://2021.cusec.net/hackacomm)
 - Code submissions and presentation files from each team
 
 ### [Materials presented](#materials)
-- [Meet the Mentors Day](HackaCommFinalsPresentation.pdf) January 4, 2021
-- [Finals](HackaCommFinalsPresentation.pdf) January 10, 2021
+- [Meet the Mentors Day](MeetMentorsDay.pdf) January 4, 2021
+- [Finals](Finals_Intro.pdf) January 10, 2021
 
 ### [Winners](#winners)
 - Finalists selected during Preliminary Judging Round, January 8, 2021
