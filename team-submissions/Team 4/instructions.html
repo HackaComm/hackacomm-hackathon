@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>instructions</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style3.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <h3>Hi! Manav</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p><img src="avatar.png" alt="Avatar" class="avatar">  Manav Patel</p>
+                <li class="active">
+                    <a href="clusters.html">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="clusters.html">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#Test">Perform a test</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Your communties</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="community.html">Ottawa Lake Savers</a>
+                        </li>
+                        <li>
+                            <a href="#">Ottawa Volunteers</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li>
+                    <a href="#">Share</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Sign Out</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">New Community</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+            </nav>
+            <h2>Follow these steps to perform the water test.</h2>
+            <ol type="1">
+                <li>Remove the strip from packing and dip into water.</li>
+                <li>Record date and time of test being conducted.</li>
+                <li>Wait for the testing strip to change its color.</li>
+                <li>Once the strip changes its colour quickly match it with our color guide below and see what the result depicts.</li>
+                <li><b><u>Repeat the steps to perform three such tests atleast thrice a month at the same inland water body to help us get accurate data.</u></b> </li>
+            </ol>
+
+            <div class="line"></div>
+            <section id="cguide">
+                <h2>Color Guide</h2>
+                <p>Select one of the colours from below to see what your test means!</p>
+                <P>Colors for pH scale:</P>
+                <a href="#ph"><button class="button"></button></a>
+                <a href="#ph"><button class="button button2"></button></a>
+                <a href="#ph"><button class="button button3"></button></a>
+                <a href="#ph"><button class="button button4"></button></a>
+            
+                <P>Colors for Higher range pH scale:</P>
+                <a href="#ph"><button class="button buttonph1"></button></a>
+                <a href="#ph"><button class="button buttonph2"></button></a>
+                <a href="#ph"><button class="button buttonph3"></button></a>
+                <a href="#ph"><button class="button buttonph4"></button></a>
+
+                <P>Ammonia:</P>
+                <a href="#amm"><button class="button buttona1"></button></a>
+                <a href="#amm"><button class="button buttona2"></button></a>
+                <a href="#amm"><button class="button buttona3"></button></a>
+                <a href="#amm"><button class="button buttona4"></button></a>
+
+
+                <P>Nitrite:</P>
+                <a href="#ni"><button class="button buttonn1"></button></a>
+                <a href="#ni"><button class="button buttonn2"></button></a>
+                <a href="#ni"><button class="button buttonn3"></button></a>
+                <a href="#ni"><button class="button buttonn4"></button></a>
+
+
+                <P>Nitrate:</P>
+                <a href="#ni"><button class="button buttonna1"></button></a>
+                <a href="#ni"><button class="button buttonna2"></button></a>
+                <a href="#ni"><button class="button buttonna3"></button></a>
+                <a href="#ni"><button class="button buttonna4"></button></a>
+
+                <p><a href="#Test">If you wish to record your test results click here!</a></p>
+            </section>
+            <div class="line"></div>
+
+            <section id="ph"><h2>What do these pHcolors mean?</h2>
+            <p>Exposure to extreme pH values results in irritation to the eyes, skin, and mucous membranes.
+            Eye irritation and exacerbation of skin disorders have been associated with pH values greater
+            than 11. In addition, solutions of pH 10–12.5 have been reported to cause hair fibres to swell
+            (10). In sensitive individuals, gastrointestinal irritation may also occur. Exposure to low pH
+            values can also result in similar effects. Below pH 4, redness and irritation of the eyes have
+            been reported, the severity of which increases with decreasing pH. Below pH 2.5, damage to
+            the epithelium is irreversible and extensive (10). In addition, because pH can affect the degree
+            of corrosion of metals as well as disinfection efficiency, it may have an indirect effect on
+            health.</p></section>
+
+            <div class="line"></div>
+            <section id="amm"><h2>What do these colors mean on the Ammonia scale?</h2></section>
+            <p>Exposure to extreme pH values results in irritation to the eyes, skin, and mucous membranes.
+            Eye irritation and exacerbation of skin disorders have been associated with pH values greater
+            than 11. In addition, solutions of pH 10–12.5 have been reported to cause hair fibres to swell
+            (10). In sensitive individuals, gastrointestinal irritation may also occur. Exposure to low pH
+            values can also result in similar effects. Below pH 4, redness and irritation of the eyes have
+            been reported, the severity of which increases with decreasing pH. Below pH 2.5, damage to
+            the epithelium is irreversible and extensive (10). In addition, because pH can affect the degree
+            of corrosion of metals as well as disinfection efficiency, it may have an indirect effect on
+            health.</p>
+
+            <section id="ni"><div class="line"></div>
+            <section id="ni"><h2>What do these colors mean on the Nitrite and Nitrate scale?</h2></section>
+            <p>Exposure to extreme pH values results in irritation to the eyes, skin, and mucous membranes.
+            Eye irritation and exacerbation of skin disorders have been associated with pH values greater
+            than 11. In addition, solutions of pH 10–12.5 have been reported to cause hair fibres to swell
+            (10). In sensitive individuals, gastrointestinal irritation may also occur. Exposure to low pH
+            values can also result in similar effects. Below pH 4, redness and irritation of the eyes have
+            been reported, the severity of which increases with decreasing pH. Below pH 2.5, damage to
+            the epithelium is irreversible and extensive (10). In addition, because pH can affect the degree
+            of corrosion of metals as well as disinfection efficiency, it may have an indirect effect on
+            health.</p>
+
+            <div class="line"></div>
+            <section id="Test">
+                <h2>Record your test here!</h2>
+                <p>Please select one check box per scale.</p>
+                <p>Check the boxes corresponding to your colour on the water testing strip.</p>
+
+                <form action="">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle1"> pH Scale</label><br>
+                  <button class="button"></button>
+                  <button class="button button2"></button>
+                  <button class="button button3"></button>
+                  <button class="button button4"></button><br>
+                  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle2"> Higher pH scale</label><br>
+                  <button class="button buttonph1"></button>
+                  <button class="button buttonph2"></button>
+                  <button class="button buttonph3"></button>
+                  <button class="button buttonph4"></button><br>
+                  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle3"> Ammonia Scale</label><br>
+                  <button class="button buttona1"></button>
+                  <button class="button buttona2"></button>
+                  <button class="button buttona3"></button>
+                  <button class="button buttona4"></button><br>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle1"> Nitrite Scale</label><br>
+                  <button class="button buttonn1"></button>
+                  <button class="button buttonn2"></button>
+                  <button class="button buttonn3"></button>
+                  <button class="button buttonn4"></button><br>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle1"> Nitrate Scale</label><br>
+                  <button class="button buttonna1"></button>
+                  <button class="button buttonna2"></button>
+                  <button class="button buttonna3"></button>
+                  <button class="button buttonna4"></button><br><br>
+                  <input type="submit"><br><br><br>
+                </form>
+                <p><a href="clusters.html"><b>Changed your mind? go back to home page!</b></a></p><br><br>
+            </section>
+
+        </div>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('gmap'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+          
+        });
+      }
+    </script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHPDMJ-xQ9dlfKRnt5mUOlQxM7RT_NwTA&callback=initMap"></script>       
+
+</body>
+
+</html>
